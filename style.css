@@ -1,0 +1,39 @@
+
+h1{
+    background: rgb(118, 158, 131);
+    color: snow;
+    border: turquoise solid;
+    padding: 100;
+}
+*{
+    background: rgb(27, 155, 172);
+}
+
+p,h2{
+    text-align: center;
+}
+.header{
+    background: rgb(182, 216, 193);
+    display:flex;
+    justify-content: space-between ;
+}
+.menu{
+    border: indigo solid;
+    margin: 50;
+    background: greenyellow;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.item{
+    padding: 100;
+
+    background: red;
+}
+.footer{
+    display:flex;
+justify-content: flex-end;
+}
